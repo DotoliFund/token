@@ -8,7 +8,7 @@ import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol";
 contract XXXToken is ERC20, ERC20Permit, ERC20Votes {
 
     constructor() ERC20("XXXToken", "XXX") ERC20Permit("XXXToken") {
-        _mint(msg.sender,  100000000*1e18);
+        _mint(msg.sender,  10000000*1e18);
     }
 
     // The following functions are overrides required by Solidity.

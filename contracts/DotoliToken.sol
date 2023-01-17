@@ -5,9 +5,9 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/draft-ERC20Permit.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol";
 
-contract XXXToken is ERC20, ERC20Permit, ERC20Votes {
+contract DotoliToken is ERC20, ERC20Permit, ERC20Votes {
 
-    constructor() ERC20("XXXToken", "XXX") ERC20Permit("XXXToken") {
+    constructor() ERC20("Dotoli", "DTL") ERC20Permit("Dotoli") {
         _mint(msg.sender,  10000000*1e18);
     }
 

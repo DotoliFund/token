@@ -6,10 +6,10 @@ async function main() {
   console.log("Deploying contracts with the account:", test_account_1.address);
   console.log("Account balance:", (await test_account_1.getBalance()).toString());
 
-  const XXXToken = await ethers.getContractFactory("XXXToken");
-  const token = await XXXToken.deploy();
+  const DotoliToken = await ethers.getContractFactory("DotoliToken");
+  const token = await DotoliToken.deploy();
   await token.deployed();
-  console.log("XXXToken address : ", token.address);
+  console.log("DotoliToken address : ", token.address);
 }
 
 // We recommend this pattern to be able to use async/await everywhere

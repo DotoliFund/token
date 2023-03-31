@@ -10,6 +10,7 @@ async function main() {
   const token = await DotoliToken.deploy();
   await token.deployed();
   console.log("DotoliToken address : ", token.address);
+  console.log("Account balance:", (await test_account_1.getBalance()).toString());
 }
 
 // We recommend this pattern to be able to use async/await everywhere

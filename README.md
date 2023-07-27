@@ -1,13 +1,26 @@
-# Sample Hardhat Project
+# Dotoli token
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This repository contains the token smart contracts for the Dotoli Protocol.
 
-Try running some of the following tasks:
+## Smart Contract
+Used `@openzeppelin/contracts/token`
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
+### DotoliToken
+
+```
+Symbol = DTL
+Total token balance = 10000000*1e18 // max balance
+```
+
+## Contract Address
+
+| Contract         | Mainnet Address | 
+| ----------------------------------- | ---------------------------------------- | 
+| [DotoliToken](https://github.com/DotoliFund/token/blob/master/contracts/DotoliToken.sol)                                                    | `0xFd78b26D1E5fcAC01ba43479a44afB69a8073716`           | 
+
+## Licensing
+
+Inspired by Uniswap V3
+```
+MIT
 ```
